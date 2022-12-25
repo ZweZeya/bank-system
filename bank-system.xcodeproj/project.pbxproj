@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		3703773F29573133000AD3D4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3703773E29573133000AD3D4 /* main.cpp */; };
+		3703774A2958064C000AD3D4 /* User.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 370377482958064C000AD3D4 /* User.cpp */; };
+		3703774D29580C67000AD3D4 /* Bank.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3703774B29580C67000AD3D4 /* Bank.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		3703773B29573133000AD3D4 /* bank-system */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "bank-system"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3703773E29573133000AD3D4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		370377482958064C000AD3D4 /* User.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = User.cpp; sourceTree = "<group>"; };
+		370377492958064C000AD3D4 /* User.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = User.hpp; sourceTree = "<group>"; };
+		3703774B29580C67000AD3D4 /* Bank.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Bank.cpp; sourceTree = "<group>"; };
+		3703774C29580C67000AD3D4 /* Bank.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Bank.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				3703773E29573133000AD3D4 /* main.cpp */,
+				370377482958064C000AD3D4 /* User.cpp */,
+				370377492958064C000AD3D4 /* User.hpp */,
+				3703774B29580C67000AD3D4 /* Bank.cpp */,
+				3703774C29580C67000AD3D4 /* Bank.hpp */,
 			);
 			path = "bank-system";
 			sourceTree = "<group>";
@@ -119,6 +129,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3703774D29580C67000AD3D4 /* Bank.cpp in Sources */,
+				3703774A2958064C000AD3D4 /* User.cpp in Sources */,
 				3703773F29573133000AD3D4 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
